@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "mobi.pintsized.flappyhog"
+        version     = "1.1.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>FlappyHog!</name>
+
+    <description>
+        FlappyHog is a sidescrolling game featuring retro style graphics. The objective is to direct a flying pig between each oncoming set of pipes without colliding with them, which otherwise ends the game. Pure Squeal for boredom! 
+    </description>
+
+    <author href="http://pintsized.mobi" email="support@pintsized.mobi">
+        PintSized.mobi
+    </author>
+	
+	<gap:platform name="android" />
+	<preference name="phonegap-version" value="3.3.0" />
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	
+	<icon src="icon.png" />
+	
+	<icon src="icons/drawable-ldpi/icon.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="icons/drawable-mdpi/icon.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="icons/drawable-hdpi/icon.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="icons/drawable-xhdpi/icon.png" gap:platform="android" gap:density="xhdpi" />
+	
+    <access origin="*" />
+	
+	<preference name="permissions" value="none"/>
+</widget>
